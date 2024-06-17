@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "weather-project"
+version = "0.1.0"
+description = ""
+authors = ["Airsofter <den-nd.96@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11.0"
+requests = "^2.32.3"
+flake8 = "^7.0.0"
+python-dotenv = "^1.0.1"
+yandexgptlite = "^0.1.7"
+aiohttp = "^3.9.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
