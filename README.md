@@ -20,6 +20,11 @@ git clone git@github.com:airsofter/weather_story
 cd weather_story
 ```
 
+Установите необходимые библиотеки с помощью Poetry
+```
+poetry install
+```
+
 Создать в корневой папке файл .env с переменными окружения, необходимыми 
 для работы приложения. Разместить этот файл в папке проекта weather_story.
 
@@ -31,8 +36,10 @@ SBER_AUTHORIZATION=
 Данные для файла нужно получить в соответсвующих сервисах.
 Документация для получения ключа OpenWeatherMap_KEY - https://openweathermap.org/appid
 Нужно будет скопировать ключ из личного кабинета в переменную.
+
 Документация для SBER_AUTHORIZATION https://developers.sber.ru/docs/ru/gigachat/individuals-quickstart
 Необходимый ключ вы найдете в личном кабинете в строке "Авторизационные данные"
+
 Документация для получения ключей от Яндекс GPT - https://yandex.cloud/ru/docs/iam/operations/iam-token/create#bash_1
 Для получения ключа CATALOG_ID_YANDEX нужно перейти в раздел "консоль" на сервисе и 
 скипировать ID каталога в переменную.
